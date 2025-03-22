@@ -1,0 +1,11 @@
+flask
+flask-cors
+python-dotenv
+gunicorn
+requests
+pydantic
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-apify

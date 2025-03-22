@@ -1,0 +1,33 @@
+# Ignore environment files
+.env
+frontend/.env
+
+# Node.js dependencies (React)
+frontend/node_modules/
+
+# Build output (React)
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Logs and debugging
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+*.log
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Ignore package manager lock files (optional)
+frontend/package-lock.json
+frontend/yarn.lock
