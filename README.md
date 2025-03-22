@@ -44,13 +44,13 @@ Set up a virtual environment:
 
 bash
 Copy
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install dependencies:
 
 bash
 Copy
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 Set up environment variables:
 Create a .env file in the root directory and add your API keys:
 
@@ -79,10 +79,7 @@ bash
 Copy
 npm install
 Run the React app:
-
-bash
-Copy
-npm start
+npm run dev
 The frontend will run on http://localhost:5173.
 
 Usage
