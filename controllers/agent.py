@@ -117,7 +117,7 @@ class AgentHandler(BaseCallbackHandler):
                 apify_web_scraper_tool,
             ]
             prompt = PromptTemplate.from_template(
-                "You are an AI assistant and your name is Rose. You are equipped with tools. "
+                "You are an AI assistant and your name is Synthea. You are equipped with tools. "
                 "Each tool serves a specific purpose. "
                 "Your mission is to provide accurate and helpful responses to user queries by appropriately utilizing these tools when necessary. "
                 "While doing so, maintain a fun yet professional tone to engage users effectively. "

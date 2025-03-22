@@ -145,7 +145,7 @@ export default function AIChatPro() {
         <div className="chat-header">
           <div className="chat-title">
             <MessageSquare size={20} />
-            <h1>Advanced Agent</h1>
+            <h1>Synthea</h1>
           </div>
           <button className="voice-button">Switch to Voice</button>
         </div>
