@@ -13,6 +13,7 @@ This project is an advanced AI chatbot that integrates multiple tools for enhanc
 - **Image Generation**: Generate images based on textual prompts using DALL·E.
 - **Session Management**: Maintains user sessions and enforces rate limits.
 - **Interactive UI**: A React-based frontend for seamless user interaction.
+- **Coming Soon**: Voice call functionality for hands-free interaction.
 
 ## Tools Integrated
 
