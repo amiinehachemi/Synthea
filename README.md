@@ -41,47 +41,28 @@ This project is an advanced AI chatbot that integrates multiple tools for enhanc
    git clone <repository-url>
    cd <repository-folder>
 
-Set up a virtual environment:
+### Set up a virtual environment:
 
-bash
-Copy
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+-python3 -m venv venv
+-source venv/bin/activate  # On Windows: venv\Scripts\activate
+-Install dependencies:
 
-bash
-Copy
-pip3 install -r requirements.txt
-Set up environment variables:
-Create a .env file in the root directory and add your API keys:
-
-env
-Copy
-TAVILY_API_KEY=your_tavily_api_key
-ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
-APIFY_API_KEY=your_apify_api_key
-OPENAI_API_KEY=your_openai_api_key
-Run the Flask server:
-
-bash
-Copy
-python app.py
+-pip3 install -r requirements.txt
+-Set up environment variables:
+-Create a .env file in the root directory and add your API keys:
+-python app.py
 The backend will run on http://localhost:5000.
 
-Frontend (React)
+## Frontend (React)
 Navigate to the frontend directory:
 
-bash
-Copy
-cd frontend
-Install dependencies:
+-cd frontend
+-Install dependencies:
 
-bash
-Copy
-npm install
-Run the React app:
-npm run dev
-The frontend will run on http://localhost:5173.
+-npm install
+-Run the React app:
+-npm run dev
+-The frontend will run on http://localhost:5173.
 
 Usage
 Open the React app in your browser (http://localhost:5173).
