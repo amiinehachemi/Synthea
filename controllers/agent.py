@@ -18,6 +18,8 @@ from controllers.tools import (
     search_tool,
     apify_web_scraper_tool,
     image_generation_tool,
+    email_tool,
+    send_calendly_tool
 )
 
 load_dotenv()
@@ -115,12 +117,15 @@ class AgentHandler(BaseCallbackHandler):
                 search_tool,
                 image_generation_tool,
                 apify_web_scraper_tool,
+                email_tool,
+                send_calendly_tool
             ]
             prompt = PromptTemplate.from_template(
                 "You are an AI assistant and your name is Synthea. You are equipped with tools. "
                 "Each tool serves a specific purpose. "
                 "Your mission is to provide accurate and helpful responses to user queries by appropriately utilizing these tools when necessary. "
                 "While doing so, maintain a fun yet professional tone to engage users effectively. "
+                "Keep your responses in short length to retain the user's attention. Never produce lists, just answers."
                 "Ensure that your responses are formatted for optimal readability, using bullet points, lists, or tables as appropriate. "
                 "If a tool is required to answer the user's question, invoke it with the necessary parameters; otherwise, respond directly based on your knowledge. "
                 "\n\nChat History:\n{chat_history}\n\nUser Query: {input}\n\n{agent_scratchpad}"
