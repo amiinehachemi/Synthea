@@ -21,6 +21,16 @@ export default function AIChatPro() {
 
   const tools = [
     {
+      name: 'Send Email',
+      description: 'Allows AI Agent to send emails directly, enabling seamless communication and notifications within your workflow.',
+      metadata: 'SendEmail',
+    },
+    {
+      name: 'Calendly Invitation',
+      description: 'Easily schedule meetings by sending Calendly invitations, streamlining appointment booking and time management using AI Agent.',
+      metadata: 'SendCalendlyInvitation',
+    },
+    {
       name: 'DALL·E 3',
       description: 'DALL·E 3 understands significantly more nuance and detail than our previous systems, allowing you to easily translate your ideas into exceptionally accurate images.',
       metadata: 'image_generation',
